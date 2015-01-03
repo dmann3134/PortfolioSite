@@ -33,6 +33,17 @@
 	<![endif]-->
 
 </head>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+			 $('#content').height($(window).height() * .6);
+	});
+
+	$(window).resize(function() {
+			 $('#content').height($(window).height() * .6);
+	});
+</script>
+
 <body>
 
 	<!-- Header
@@ -64,8 +75,7 @@
 	<!-- Content
 	================================================== -->
 	<section id="content" class="container">
-
-		<iframe src="https://docs.google.com/viewer?srcid=0Bx7PmLE5ATgFc01JMVdDb3dicUU&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="600px"></iframe>
+		<iframe src="https://docs.google.com/viewer?srcid=0Bx7PmLE5ATgFc01JMVdDb3dicUU&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
 		
 	</section>
 
